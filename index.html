@@ -6,78 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gnanayudh</title>
     <link rel="stylesheet" href="Styling/univ.css">
+    <link rel="stylesheet" href="Styling/index.css">
     <style>
-        body{
-            font-weight: lighter;
-            background-image: url('Styling/img/output-0.jpg');
-            background-blend-mode: color;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-        }
-        .contentArea{
-            padding: 1em;
-            background-color: rgba(0, 0, 0, 0.76);
-        }
-        .eventCard{  /*event links are displayed as cards*/
-            margin: auto; /*to align the cards at the center*/
-            margin-bottom: 2em; /*gap between two cards*/
-            height: auto;
-            width: 50%;
-            line-height: auto; /*for the sake of vertical alignment of the text   */
-            text-align: center;
-            text-decoration: none;
-            color: white;
-            font-size: 3em;
-            padding: 1em;
-            border-radius: 5px;
-            box-shadow: 0 0 5px grey;
-            background-color: rgba(0, 0, 0, 0.7);
-            background-blend-mode: color;
-            display: block;
-            transition: box-shadow 0.15s linear 0s, background-color 0.15s linear 0s;
-            -moz-transition: box-shadow 0.15s linear 0s, background-color 0.15s linear 0s;  /*every property that starts with -moz- is for firefox*/
-            -webkit-transition: box-shadow 0.15s linear 0s, background-color 0.15s linear 0s;  /*" " " " " " "  -webkit- is for safari*/
-        }
-        .eventCard span.text{
-            display: inline-block;
-            vertical-align: middle;
-            line-height: normal;
-        }
-        .eventCard#webdev{  /*styling just for the art of web contest*/
-            background-image: url(Styling/img/html-code.jpg);
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            font-family: consolas;
-        }
-        .eventCard#triathlon{
-            background-image: url(Styling/img/bluebiohazardsymbol-1526952639573-6699.jpg);
-            background-attachment: fixed;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        .eventCard#ece{
-            background-image: url(Styling/img/pcb-board-assembly-1.jpg);
-            background-attachment: fixed;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-        }
-        .eventCard:hover{
-            box-shadow: 0 0 10px black;
-            background-color: rgba(0, 0, 0, 0.9);
-        }
+        
     </style>
 </head>
 <body>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="theArtOfWeb.html">The Art of Web</a></li>
+            <li><a href="webdesign.html">The Art of Web</a></li>
             <li><a href="triathlon.html">Triathlon</a></li>
             <li><a href="sarajnatmaka.html">Sarajnatmaka</a></li>
             <li><a href="nonTech.html">Non-Technical Events</a></li>
@@ -85,7 +23,7 @@
     </nav>
     
     <!--<div class="headerContainer">-->
-        <header><span>GNANAYUDH<br><span id="headDesc">The Ultimate Battle of Minds</span></span></header>
+        <header><span class="text">GNANAYUDH<br><span id="headDesc">The Ultimate Battle of Minds</span></span></header>
     <!--</div>-->
     <div class="misc" style="font-weight: lighter;">
         If you are an intellect looking for cracking anything, and if you have whatever it takes to disrupt the entire competition,<br>come join us on //date!
@@ -93,19 +31,19 @@
     </div>
     <div class="contentArea">
         <h1 style="text-align: center; padding-bottom: 1em; font-weight: 500; font-size: 30pt; color: white;">Events:</h1>
-        <a href="#" class="eventCard" id="webdev">
+        <a href="webdesign.html" class="eventCard" id="webdev">
             <span class="text">
-                <span style="color: grey;">&lt;</span><span class="tag">The Art of Web</span><span style="color: grey;">&gt;</span><br>
-                <span style="color: rgb(73, 151, 59);"><span class="angBracket">&lt;</span>!--Web Designing Contest--<span class="angBracket">&gt;</span></span>
+                <span class="tag"><span class="angBrack">&lt;</span>The Art of Web<span class="angBrack">&gt;</span></span><br>
+                <span class="commentLine"><span class="angBracket">&lt;</span>!--Web Designing Contest--<span class="angBracket">&gt;</span></span>
             </span>
         </a>
-        <a href="#" class="eventCard" id="triathlon">
+        <a href="triathlon.html" class="eventCard" id="triathlon">
             <span class="text">
                 <span style="font-family: 'Android Scratch';">TRIATHLON</span><br>
                 A 3-Battle Event. 
             </span>
         </a>
-        <a href="#" class="eventCard" id="ece">
+        <a href="sarajnatmaka.html" class="eventCard" id="ece">
             <span class="text">
                 <span>Sarajnatmaka</span><br>
                 The Electronics Combat. 

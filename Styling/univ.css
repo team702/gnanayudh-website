@@ -93,7 +93,6 @@ nav ul li a:hover{
 }*/
 header{
     height: 100vh;
-    font-family: Beyno;
     font-size: 7em;
     width: 100%;
     text-align: center;
@@ -101,7 +100,7 @@ header{
     line-height: 100vh;
     background-color: rgba(0, 0, 0, 0.76);
 }
-header span{
+header span.text{
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
@@ -117,18 +116,63 @@ header span{
     font-size: 1.7em;
     text-align: center;
 }
+.contentArea{
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+}
 
 /*Code editor-like styling*/
 
 span.tag{
     color: rgb(0, 89, 161);
 }
+span.tag span.angBrack{
+    color: grey;
+}
+span.commentLine{
+    color: rgb(73, 151, 59);
+}
+.stuButton /*Student Button*/
+{
+    text-align: center;
+    width: 7em;
+}
+.stuButton a
+{
+    font-size: 15pt;
+    background-color: #3f925b;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+.stuButton a:hover{
+    background-color: #00c542;
+}
+.staButton /*Staff button*/
+{
+    text-align: center;
+    width: 7em;
+}
+.staButton a
+{
+    font-size: 15pt;
+    background-color: rgb(245, 71, 59);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.staButton a:hover{
+    background-color: rgba(212, 14, 0, 0.822);
+}
 footer{
     background-color: #1E1E1E;
     padding: 1em;
     text-align: center;
     color: white;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 footer a{
     color: white;

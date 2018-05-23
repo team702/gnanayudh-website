@@ -1,0 +1,45 @@
+div.contentArea1{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.r1Background{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url("img/img.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:rgba(0, 0, 0, 0.7);
+    background-blend-mode:color;
+    padding: 1em 0.5em;
+}
+div.r2Background{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url("img/gd.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:rgba(0, 0, 0, 0.7);
+    background-blend-mode:color;
+    
+    padding: 1em 0.5em;
+}
+div.r3Background{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url("img/rsz_programmer.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color:rgba(0, 0, 0, 0.7);
+    background-blend-mode:color;
+    padding: 1em 0.5em;
+}

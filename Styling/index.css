@@ -1,0 +1,63 @@
+header{
+    font-family: 'BEYNO';            
+}
+body{
+    font-weight: lighter;
+    background-image: url(img/output-0.jpg);
+    background-blend-mode: color;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.eventCard{  /*event links are displayed as cards*/
+    margin: auto; /*to align the cards at the center*/
+    margin-bottom: 2em; /*gap between two cards*/
+    height: auto;
+    width: 50%;
+    line-height: auto; /*for the sake of vertical alignment of the text   */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 5px grey;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: color;
+    display: block;
+    transition: box-shadow 0.15s linear 0s, background-color 0.15s linear 0s;
+    -moz-transition: box-shadow 0.15s linear 0s, background-color 0.15s linear 0s;  /*every property that starts with -moz- is for firefox*/
+    -webkit-transition: box-shadow 0.15s linear 0s, background-color 0.15s linear 0s;  /*" " " " " " "  -webkit- is for safari*/
+}
+.eventCard span.text{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.eventCard#webdev{  /*styling just for the art of web contest*/
+    background-image: url(img/html-code.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: consolas;
+}
+.eventCard#triathlon{
+    background-image: url(img/bluebiohazardsymbol-1526952639573-6699.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eventCard#ece{
+    background-image: url(img/pcb-board-assembly-1.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.eventCard:hover{
+    box-shadow: 0 0 10px black;
+    background-color: rgba(0, 0, 0, 0.9);
+}
