@@ -33,32 +33,13 @@ body{
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: 1px solid black;
+    background-blend-mode: color;   /*  \                                                                           */
+    background-attachment: fixed;   /*  |                                                                           */
+    background-repeat: no-repeat;   /*  |}These are for the background parallax-like (not parallax exactly) effect*/
+    background-size: cover;         /*  |                                                                           */
+    background-position: center;    /*  /                                                                           */
     
 }
-/*nav{
-    margin: 0%;
-    position: sticky;
-    top: 0;
-}
-nav ul{
-    list-style-type: none;
-    padding: 0;
-    
-    overflow: hidden;
-    background-color: #333333;
-}
-     
-nav ul li a{
-    text-decoration: none;
-    display: block;
-    background-color: #333333;
-    color: white;
-    padding: 16px;
-    float: left;
-}
-nav ul li a:hover{
-    background-color: #000000;
-}*/
 nav{
     margin: 0;
     position: fixed;
@@ -71,7 +52,7 @@ nav ul{
     margin: 0%;
     list-style-type: none;
     padding: 0%;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(39, 39, 39);
     overflow: hidden;
 }
 nav ul li a{
@@ -137,6 +118,9 @@ span.commentLine{
 {
     text-align: center;
     width: 7em;
+}
+.buttonArea{
+    text-align: center;
 }
 .stuButton a
 {

@@ -4,11 +4,6 @@ header{
 body{
     font-weight: lighter;
     background-image: url(img/output-0.jpg);
-    background-blend-mode: color;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 .eventCard{  /*event links are displayed as cards*/
     margin: auto; /*to align the cards at the center*/
